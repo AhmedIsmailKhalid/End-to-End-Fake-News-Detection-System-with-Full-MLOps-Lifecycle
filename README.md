@@ -1,7 +1,6 @@
 ---
 title: Fake News Detection MLOps Web App
 sdk: docker
-pinned: false
 short_description: Production-ready MLOps system for fake news detection with advanced monitoring and automated retraining
 license: mit
 ---
