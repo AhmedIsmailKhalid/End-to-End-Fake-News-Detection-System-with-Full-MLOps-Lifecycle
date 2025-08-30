@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: [3.8, 3.9]  # Remove 3.10 if causing issues
+        python-version: [3.11.6]  # Remove 3.10 if causing issues
     
     steps:
     - uses: actions/checkout@v4
