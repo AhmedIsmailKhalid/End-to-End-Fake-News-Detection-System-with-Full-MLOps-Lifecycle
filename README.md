@@ -368,7 +368,8 @@ def test_lightgbm_cpu_optimization():
 ⚠️ **Model Complexity**: Reduced parameters for CPU limits (documented performance impact)  
 ⚠️ **Feature Engineering**: Selective extraction vs full NLP pipeline  
 ⚠️ **Bootstrap Samples**: 1,000 samples (vs production: 10,000+)  
-⚠️ **Real-time Processing**: Batch-only (vs production: streaming)  
+⚠️ **Real-time Processing**: Batch-only (vs production: streaming) 
+⚠️ **Github Actions Workflows**: The current implementation of Github action workflows works perfectly but causes some unknown build errors with HuggingFace Spaces repo which causes build to fail and wab app container not to spin. Therefore at this time, the Github actions are disabled until this is fixed
 
 #### **Business Value Proposition**
 
