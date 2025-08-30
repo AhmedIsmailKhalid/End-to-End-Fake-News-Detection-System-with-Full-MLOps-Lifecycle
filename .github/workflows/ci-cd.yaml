@@ -74,7 +74,7 @@ jobs:
         api = HfApi()
         api.upload_folder(
             folder_path='.',
-            repo_id='your-username/fake-news-detection-space',
+            repo_id='Ahmedik95316/Fake-News-Detection-with-MLOps',
             repo_type='space',
             token=token,
             ignore_patterns=['.git*', '__pycache__', '*.pyc', 'tests/', '.github/']
