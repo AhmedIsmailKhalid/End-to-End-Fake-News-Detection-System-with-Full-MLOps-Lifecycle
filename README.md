@@ -235,11 +235,18 @@ def analyze_feature_stability(model, X, y, feature_names, n_bootstrap=500):
 ## 🚀 Quick Start
 
 ### **Local Development**
+**Clone Repo**
 ```bash
-git clone <repository-url>
+git clone git clone https://huggingface.co/spaces/Ahmedik95316/Fake-News-Detection-with-MLOps
 cd fake-news-detection
 pip install -r requirements.txt
 python initialize_system.py
+```
+
+**Docker** 
+```bash
+docker run -it -p 7860:7860 --platform=linux/amd64 \
+	registry.hf.space/ahmedik95316-fake-news-detection-with-mlops:latest 
 ```
 
 ### **Training Models**
