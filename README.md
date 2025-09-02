@@ -27,7 +27,7 @@ A sophisticated fake news detection system showcasing advanced MLOps practices w
 
 This system represents a complete MLOps pipeline designed for **CPU-constrained environments** like HuggingFace Spaces, demonstrating senior-level engineering practices across three critical domains:
 
-![Architectural Workflow Diagram](./Architectural%20Workflow%20Diagram.jpg)
+![Architectural Workflow Diagram](./Architectural%20Workflow%20Diagram.svg)
 
 ### **Data Science Excellence**
 - **Bootstrap Confidence Intervals**: Every metric includes 95% CI bounds (e.g., F1: 0.847 ± 0.022)
