@@ -46,6 +46,14 @@ Demonstrates ability to bridge technical excellence with business value, showing
 
 ---
 
+## 🎯 System Overview
+
+This system represents a complete MLOps pipeline designed for **CPU-constrained environments** like HuggingFace Spaces, demonstrating senior-level engineering practices across three critical domains:
+
+![Architectural Workflow Diagram](./Architectural%20Workflow%20Diagram.jpg)
+
+---
+
 ## 🏢 Business Impact & ROI
 
 ### **Quantified Business Value**
